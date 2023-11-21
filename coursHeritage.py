@@ -12,19 +12,6 @@ class Animal:
     def crier(self):
         print(f"Le {self.nom} crie")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Carnivore(Animal):
     def __init__(self, nom,crie,deplacement,nourriture):
         super().__init__(nom)
@@ -40,17 +27,6 @@ class Carnivore(Animal):
 
     def crier(self):
         print(f"Le {self.nom} {self.crie}")
-
-
-
-
-
-
-
-
-
-
-
 
 class Lion(Carnivore):
     def __init__(self, nom, crie, deplacement, nourriture,peaux):
